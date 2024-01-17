@@ -35,14 +35,115 @@
         <img src="images/charm_search.svg" alt="searchIcon" />
       </button>
       <div>
-        <button class="login logBefore">LOG IN</button>
+        <button class="login logBefore"><a href="">LOG IN</a></button>
         <button class="login logResponsive">
-          <i class="fa-solid fa-user"></i>
+          <a href=""><i class="fa-solid fa-user"></i></a>
         </button>
         <button>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
         </button>
       </div>
-    </header> 
+    </header>
+    <!-- section  -->
+    <section>
+      <form action="" class="border_style_pink">
+        <h2>CONTACT US</h2>
+
+        <div class="form_container">
+          <div class="name_email_first_cont">
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="border_style_pink"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              class="border_style_pink"
+            />
+          </div>
+
+          <div class="second_container">
+            <label for="" class="white_label"
+              >I have a delivery question about my order</label
+            >
+            <div class="question_cont">
+              <div class="quest_check">
+                <input
+                  type="radio"
+                  name="questionary"
+                  class="border_style_hot_pink"
+                  value="NotRecieve"
+                />
+                <label for="">I did not receive my order</label>
+              </div>
+
+              <div class="quest_check">
+                <input
+                  type="radio"
+                  name="questionary"
+                  class="border_style_hot_pink"
+                  value="incorrect"
+                />
+                <label for="">My order is incorrect or arrived damaged</label>
+              </div>
+
+              <div class="quest_check">
+                <input
+                  type="radio"
+                  name="questionary"
+                  class="border_style_hot_pink"
+                  value="cancel"
+                />
+                <label for="">Cancel my order</label>
+              </div>
+
+              <div class="quest_check">
+                <input
+                  type="radio"
+                  name="questionary"
+                  class="border_style_hot_pink"
+                  value="changeAdress"
+                />
+                <label for="">Change my shipping address</label>
+              </div>
+            </div>
+          </div>
+
+          <div class="text_Area_3_cont">
+            <label for="" class="white_label"
+              >Please provide more details below.</label
+            >
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="300"
+              rows="100"
+              placeholder="Message"
+            ></textarea>
+          </div>
+
+          <div class="checkbox_button_last_container">
+            <div class="lastlabeldiv">
+              <input
+                type="checkbox"
+                class="border_style_hot_pink"
+                name="Checkbox"
+                value="checkbox"
+                id="checkbox"
+              />
+              <label for="" class="white_label"
+                >I want to receive the newsletter
+              </label>
+            </div>
+
+            <button class="send">SEND</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </div>
 </body>
 </html>

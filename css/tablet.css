@@ -3,4 +3,28 @@
     header {
       padding: 34px 20px;
     }
-}
+    /* section  */
+    section {
+      padding: 50px calc(50 / 1440 * 100%);
+    }
+    section form {
+      padding: 48px calc(30 / 864 * 100%);
+    }
+    .logBefore {
+      display: none;
+    }
+    .logResponsive {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+    }
+    header button {
+      width: 32px;
+      height: 32px;
+      padding: 8px;
+    }
+    header div button:last-child {
+      padding: 8px;
+    }
+  }

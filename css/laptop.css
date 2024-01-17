@@ -1,4 +1,14 @@
-@media (max-width: 835px) {
+@media (max-width: 1200px) {
+    /* section  */
+    section {
+      padding: 64px calc(180 / 1200 * 100%);
+    }
+    section form {
+      padding: 48px calc(170 / 800 * 100%);
+    }
+  }
+  
+  @media (max-width: 835px) {
     /* header  */
     header {
       padding: 34px 40px;
@@ -19,4 +29,11 @@
       width: 32px;
       height: 32px;
     }
-}
+    /* section  */
+    section {
+      padding: 64px calc(145 / 835 * 100%);
+    }
+    section form {
+      padding: 48px calc(45 / 754 * 100%);
+    }
+  }
