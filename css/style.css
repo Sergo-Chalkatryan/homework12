@@ -8,42 +8,29 @@ header {
   justify-content: space-between;
   align-items: center;
   background: #2e0230;
-  height: 116px;
   padding: 34px 72px;
-}
-header img {
-  height: 48px;
-  width: 48px;
 }
 header form {
   border-radius: 8px;
   display: flex;
-  padding-left: 16px;
-  justify-content: space-between;
-  width: calc(560 / 1440 * 100%);
   height: 48px;
-  position: relative;
-}
-.border_style_pink {
+  width: 560px;
   border: 1px solid rgba(176, 82, 181, 0.79);
 }
 header form:hover {
-  box-shadow: 0px -2px 5px 0px #F1ACEE;
+  box-shadow: 0px -2px 5px 0px #f1acee;
 }
 header input {
   background-color: transparent;
   border: none;
   outline: none;
-  width: 90%;
+  width: 100%;
+  padding-left: 16px;
 }
 .searchButtonResp,
 .logResponsive {
   display: none;
 }
-.logResponsive {
-  display: inline-block;
-}
-
 .login a {
   color: #fff;
 }
@@ -51,14 +38,8 @@ header input {
 header form button {
   border-radius: 0px 8px 8px 0px;
   background: #b052b5;
-  padding: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
-  position: absolute;
-  top: -2%;
-  right: -0.1%;
+  width: 48px;
   height: 48px;
 }
 header div {
@@ -75,7 +56,7 @@ header div {
   font-weight: 400;
   line-height: 26px;
   border: 1px solid #f30aea;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .login:hover {
   color: #f30aea;
@@ -120,7 +101,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 h2:hover {
   text-shadow: none;
@@ -146,10 +127,10 @@ section label {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-::placeholder{
-  font-family: 'Poppins', sans-serif;
+::placeholder {
+  font-family: "Poppins", sans-serif;
 }
 .white_label {
   color: #ffffff;
@@ -256,7 +237,7 @@ textarea {
   font-weight: 700;
   line-height: 26px;
   margin-top: 40px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   letter-spacing: 1px;
 }
 .send:hover {
